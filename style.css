@@ -1,0 +1,155 @@
+* {
+  margin: 5px;
+  padding: 0;
+  /* GLOBAL RESET  .....  border-top: 5px solid #000; */
+}
+/* Universal selector top most priority  APPLIES TO ALL WITHOUT INHERITENCE*/
+body {
+  font-family: sans-serif;
+}
+/* h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+} */
+h1,
+h2,
+h3,
+h4 {
+  color: rgb(26, 225, 225);
+}
+h1 {
+  font-size: 50px;
+
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h4 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+li {
+  font-size: 20px;
+}
+footer p {
+  font-size: 160px; /* decendent selector 160pX IS NOT APPLIED BECAUSE ID SELECTOR*/
+}
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+}
+#copyright {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.Related-Author {
+  font-weight: bold;
+}
+
+.Related-Posts {
+  list-style: none;
+}
+.main-header {
+  height: 80px;
+  background-color: #f7f7f7;
+  margin-bottom: 40px;
+}
+body {
+  background-color: rgb(255, 255, 253);
+  /* margin: 0px; */
+}
+
+aside {
+  background-color: rgb(247, 248, 249);
+  border-top: 5px solid rgb(22, 22, 22);
+  border-bottom: 5px solid rgb(22, 22, 22);
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
+}
+/* Pseudo-Class */
+li:first-child {
+  font-weight: bold;
+}
+li:nth-child(2) {
+  font-style: italic;
+}
+li:nth-child(odd) {
+  font-style: italic;
+}
+
+li {
+  margin-bottom: 20px;
+}
+article p:first-child {
+  color: black;
+}
+/* This wont work as p is not the first child of article element. */
+
+article p:nth-child(3) {
+  color: black;
+}
+/* Styling the links */
+a {
+  color: green;
+}
+/* FOLLOW THIS ORDER FOR LINKS */
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(84, 106, 145);
+  text-decoration: wavy;
+}
+a:hover {
+  color: rgb(120, 20, 242);
+  font-weight: 700;
+  text-decoration: dotted;
+}
+a:active {
+  background-color: rgb(0, 255, 208);
+  font-style: oblique;
+}
+
+nav {
+  font-size: 20px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+}
+.post-image {
+  /* width: 600px; */
+  width: 80%;
+  height: auto;
+}
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}

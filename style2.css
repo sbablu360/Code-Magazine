@@ -1,0 +1,57 @@
+article {
+  border: 5px solid #777;
+}
+li {
+  list-style: square;
+  margin: 20px;
+}
+.image {
+  padding-left: 20px;
+}
+
+h2 {
+  background-color: rgb(246, 247, 243);
+  text-align: center;
+  text-transform: uppercase;
+}
+button {
+  background-color: black;
+  color: white;
+  width: 750px;
+  margin: 0 auto;
+}
+a:hover {
+  background-color: yellow;
+  color: #154;
+  text-decoration: none;
+}
+a:visited {
+  color: #154;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+.price {
+  font-weight: 700;
+  padding-left: 20px;
+}
+.shipping {
+  color: #777;
+}
+.product-details {
+  text-transform: uppercase;
+}
+.main-body {
+  margin: 40px auto;
+}
+body {
+  margin: 40px;
+}
+p,
+h1,
+h3,
+a {
+  margin: 20px;
+}
